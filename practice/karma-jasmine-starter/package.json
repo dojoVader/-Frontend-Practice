@@ -1,0 +1,21 @@
+{
+  "name": "karma-jasmine-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "test-dev": "npm test -- --auto-watch --no-single-run false --browsers PhantomJS"
+  },
+  "keywords": [],
+  "author": "sudodoki <smd.deluzion@gmail.com> (sudodoki.name)",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
